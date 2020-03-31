@@ -1,47 +1,65 @@
-*{
-    margin: 0;
-    padding: 0;
 
-}
-body{
-    background-color: #344a72;
-}
-a{
-    text-decoration: none;
-}
-.dat{
-    margin: 20px;
-}
-input{
-    padding-top: 5px;
-    padding-bottom: 6px;
-    margin-top: 4px;
-    width:95%;
-}
-.container{
-    background-color:whitesmoke;
-    max-width:400px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top:50px;
-}
-.container h1,p{
-    text-align: center;
-    
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-.form h1{
-    padding-top: 20px;
-}
-.btn{
-   
-   background-color: green;
-   width:90%;
-margin-left: 24px;
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+        <link
+        href="https://fonts.googleapis.com/css?family=Raleway"
+        rel="stylesheet"
+      />
+    </head>
+    <body>
+        <div class="container">
+            <div class="form">
+                <h1>Sign UP</h1>
+                <p>It's free and only takes a minute</p>
+                <form action="#">
+                   <div class="dat">
+                       <label for="fname">First Name</label>
+                       <br>
+                       <input type="text">
+                   </div>
+                   <div class="dat">
+                    <label for="lname">Last Name</label>
+                    <br>
 
-height: 30px;
-background-color: #5cb85c;
-border-color: #4cae4c;
-margin-bottom: 20px;
-border-radius: 10px;
-}
+                    <input type="text">
+                </div>
+                <div class="dat">
+                    <label for="fname"> Email</label>
+                    <br>
+
+                    <input type="email">
+                </div>
+                <div class="dat">
+                    <label for="pass">Password</label>
+                    <br>
+
+                    <input type="text">
+                </div>
+                <div class="dat">
+                    <label for="cpass">Confirm Password</label>
+                    <br>
+
+                    <input type="text">
+                </div>
+                 <button class="btn" type="submit">Sign Up</button>
+                 <p class="btm"> By clicking the Sign Up button, you agree to our
+                    <a href="#">Terms & Conditions</a> and
+                    <a href="#">Privacy Policy</a></p>
+                </form>
+               
+               
+            </div>
+           
+
+        </div>
+        <footer>
+            <p>Already have an account? <a href="#">Login Here</a></p>
+
+        </footer>
+    </body>
+    </html>
